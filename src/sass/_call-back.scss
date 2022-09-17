@@ -1,0 +1,55 @@
+.call-back {
+  background-color: var(--second-bgc);
+}
+
+.call-back-form {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.form-callback {
+  display: flex;
+  flex-direction: column;
+}
+.form-callback-text {
+  margin-bottom: 34px;
+  color: var(--first-text-color);
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.form-callback-input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin-bottom: 60px;
+}
+.form-callback-input {
+  width: 620px;
+  height: 40px;
+  background: var(--first-bgc);
+  border: 1px solid var(--second-bgc);
+  border-radius: 0px;
+  color: var(--first-text-color);
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.confirm-form-send {
+  width: 620px;
+  height: 42px;
+  color: var(--second-text-color);
+
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.38;
+  background: var(--accent-color);
+  border-radius: 5px;
+
+  transition: background-color 250ms linear;
+}
+
+.confirm-form-send:hover,
+.confirm-form-send:focus {
+  background-color: var(--hover-btn-color);
+}
